@@ -15,7 +15,11 @@ class MainActivity : AppCompatActivity() {
 
         val btnClick = findViewById<Button>(R.id.btnCalc)
         btnClick?.setOnClickListener(){
-            txtbxWorkTime.text = timeStart.hour.toString() + ":" + timeStart.minute.toString()
+
+            val hoursWorked = calcWork(timeStart.hour, timeEnd.hour, timeStart.minute, timeEnd.minute)
+
+            txtbxWorkTime.text = hoursWorked
+
         }
     }
 }
