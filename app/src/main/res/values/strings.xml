@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TimeCalculator</string>
+    <string name="workTime">Total Work Time</string>
+    <string name="btnCalculate">Calculate</string>
+</resources>
