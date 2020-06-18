@@ -9,7 +9,12 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="292bb1e0-c6b3-433b-80d7-35ee24f9ee52" name="Default Changelist" comment="" />
+    <list default="true" id="292bb1e0-c6b3-433b-80d7-35ee24f9ee52" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/timecalculator/WorkTime.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,8 +36,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -146,6 +151,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="640" y="252" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1592519891707">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="640" y="252" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1592519891707" />
     <state x="540" y="279" key="AndroidCreateResourceFileDialog" timestamp="1592164425974">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -174,5 +183,9 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="285" key="GridCell.Tab.0.right/-1050.-386.1050.1650/0.0.1920.1050@0.0.1920.1050" timestamp="1592166006628" />
+    <state x="895" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1592518566750">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="895" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1592518566750" />
   </component>
 </project>
