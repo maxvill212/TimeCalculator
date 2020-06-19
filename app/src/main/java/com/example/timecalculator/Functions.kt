@@ -1,7 +1,13 @@
 package com.example.timecalculator
 
-fun calcWork(startHR: Int, endHR: Int, startMN: Int, endMN: Int): String {
+import com.example.timecalculator.MainActivity
 
+
+fun roundRobin(startTime.get
+
+
+/** Old Code
+fun calcWork(startHR: Int, endHR: Int, startMN: Int, endMN: Int): String {
     return if (endMN >= startMN){
         var formattedMN = formatTime(endMN - startMN)
         (endHR - startHR).toString() + ":" + formattedMN
@@ -35,3 +41,4 @@ fun roundTime(startMN: Int, endMN: Int): Int {
 
     }
 }
+*/
