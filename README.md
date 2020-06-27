@@ -18,5 +18,6 @@ Run the app to your phone
 ## TODO
 * Redo logic (very inefficient and messy)
 * Have a database that stores hours for the week and adds them up at wish
+* Able to change rounding (+/- time/2)
 
 * Maybe add my pay for the given time?

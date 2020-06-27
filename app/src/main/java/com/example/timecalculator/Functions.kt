@@ -1,10 +1,27 @@
 package com.example.timecalculator
 
-import com.example.timecalculator.MainActivity
+fun roundRobin(start: Int, end: Int): Boolean {
+    return end >= start
+}
 
+fun setWorkedTime(start: WorkTime, end: WorkTime): WorkTime {
+    var total = WorkTime()
+    return if (roundRobin(start.getMN(), end.getMN())){
+        total.setHR(end.getHR() - start.getHR())
+        total.setMN(end.getMN() - start.getMN())
+        total
+    } else {
+        total.setHR(end.getHR() - start.getHR() - 1)
+        total.setMN(60 + (end.getMN() - start.getMN()))
+        total
+    }
+}
 
-fun roundRobin(startTime.get
+fun formatTime(time: WorkTime): String {
+    return "${time.getHR()} : ${time.getMN()}"
+}
 
+// TODO: 2020-06-27 Make the round minutes algorithm
 
 /** Old Code
 fun calcWork(startHR: Int, endHR: Int, startMN: Int, endMN: Int): String {

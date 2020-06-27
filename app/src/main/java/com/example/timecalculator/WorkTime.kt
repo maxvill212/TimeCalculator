@@ -1,20 +1,26 @@
 package com.example.timecalculator
 
-import kotlin.Comparable
-
 
 /** Class for the start and end time */
 class WorkTime(_hour: Int = -1, _minutes: Int = -1) {
-    private val hour = _hour
-    private val minutes = _minutes
+
+//    Variable declaration
+    private var hour = _hour
+    private var minutes = _minutes
 
     /** Getters*/
-    fun getHours(): String {
-        return hour.toString()
+    fun getHR(): Int {
+        return hour
     }
-    fun getminutes(): String {
-        return minutes.toString()
+    fun getMN(): Int {
+        return minutes
     }
 
+    /** Setters */
+    fun setHR(newHour: Int){
+        hour = newHour
+    }
+    fun setMN(newMin: Int){
+        minutes = newMin
+    }
 }
-

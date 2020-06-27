@@ -13,30 +13,22 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+//        When the button "Calculate" is clicked
         val btnClick = findViewById<Button>(R.id.btnCalc)
-        btnClick?.setOnClickListener(){
+        btnClick?.setOnClickListener{
 
-            /** Old Code
-            
-            val hoursWorked = calcWork(timeStart.hour, timeEnd.hour, timeStart.minute, timeEnd.minute)
-            var roundedTime = roundTime(timeStart.minute, timeEnd.minute)
+//            Variable declaration
+            val startTime = WorkTime(timeStart.hour, timeStart.minute)
+            val endTime = WorkTime(timeEnd.hour, timeEnd.minute)
+            val totalTime = setWorkedTime(startTime, endTime)
 
-            txtbxWorkTime.visibility = View.VISIBLE
-            txtbxRoundedTime.visibility = View.VISIBLE
-            txtbxWorkTime.text = "Hours Worked: $hoursWorked"
-            txtbxRoundedTime.text = "Rounded Minutes: ${roundedTime.toString()}"
-*/
-            var startTime = WorkTime(timeStart.hour, timeStart.minute)
-            var endTime = WorkTime(timeEnd.hour, timeEnd.minute)
-
-
-
+//            To make a clean look, only show text when wanted
             txtbxWorkTime.visibility = View.VISIBLE
             txtbxRoundedTime.visibility = View.VISIBLE
 
+//            Display the time worked on the screen
+            txtbxWorkTime.text = formatTime(totalTime)
 
-            txtbxRoundedTime.text = test.getHours()
-            txtbxWorkTime.text = test.getminutes()
 
         }
     }
