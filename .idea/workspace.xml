@@ -154,6 +154,18 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="540" y="229" key="AndroidThemeDialog/-1050.-386.1050.1650/0.0.1920.1050@0.0.1920.1050" timestamp="1592181419244" />
+<<<<<<< Updated upstream
+=======
+    <state x="565" y="119" key="CommitChangelistDialog2" timestamp="1593832516769">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="565" y="119" key="CommitChangelistDialog2/-1050.-386.1050.1650/0.0.1920.1050@0.0.1920.1050" timestamp="1593277648443" />
+    <state x="565" y="119" key="CommitChangelistDialog2/0.0.1920.1050/-1050.-386.1050.1650@0.0.1920.1050" timestamp="1593832516769" />
+    <state x="92" y="92" width="1736" height="866" key="DiffContextDialog" timestamp="1592791707833">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="92" y="92" width="1736" height="866" key="DiffContextDialog/-1050.-386.1050.1650/0.0.1920.1050@0.0.1920.1050" timestamp="1592791707833" />
+>>>>>>> Stashed changes
     <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1592154205137">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
