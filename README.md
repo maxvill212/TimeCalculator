@@ -16,7 +16,8 @@ Allow USB debugging from your Android phone
 Run the app to your phone
 
 ## TODO
-* Redo logic (very inefficient and messy)
+* Have start clock as the first clock you see (currently the end clock is in the forground) 
+* Instead of having text to say what clock you're on, have the buttons change color/something more obvious
 * Have a database that stores hours for the week and adds them up at wish
-
+* Able to change rounding (+/- time/2)
 * Maybe add my pay for the given time?

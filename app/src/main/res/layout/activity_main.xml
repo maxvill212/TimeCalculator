@@ -8,46 +8,49 @@
 
     <TextView
         android:id="@+id/txtbxWorkTime"
-        android:layout_width="357dp"
-        android:layout_height="49dp"
-        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
         android:gravity="center"
         android:text="@string/workTime"
         android:textSize="30sp"
         android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/txtbxRoundedTime"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnCalc" />
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btnCalc"
-        android:layout_width="124dp"
+        android:layout_width="wrap_content"
         android:layout_height="47dp"
-        android:layout_marginTop="95dp"
+        android:layout_marginBottom="40dp"
         android:text="@string/btnCalculate"
+        app:layout_constraintBottom_toTopOf="@+id/txtbxWorkTime"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/timeEnd" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TimePicker
         android:id="@+id/timeStart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        android:timePickerMode="spinner"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:timePickerMode="clock"
+        app:layout_constraintEnd_toEndOf="@id/timeEnd"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
 
     <TimePicker
         android:id="@+id/timeEnd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="-10dp"
-        android:timePickerMode="spinner"
+        android:timePickerMode="clock"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/timeStart" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="invisible" />
 
     <TextView
         android:id="@+id/txtbxRoundedTime"
@@ -59,6 +62,37 @@
         android:textSize="25sp"
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/btnStart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timeStart" />
+
+    <Button
+        android:id="@+id/btnEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/btnEnd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timeStart" />
+
+    <TextView
+        android:id="@+id/txtWhichClock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="@string/txtWhichClock"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnCalc"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 

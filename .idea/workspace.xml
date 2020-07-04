@@ -9,7 +9,28 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="292bb1e0-c6b3-433b-80d7-35ee24f9ee52" name="Default Changelist" comment="" />
+    <list default="true" id="292bb1e0-c6b3-433b-80d7-35ee24f9ee52" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/timecalculator/Functions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/timecalculator/Functions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/timecalculator/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/timecalculator/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/timecalculator/WorkTime.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/timecalculator/WorkTime.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,11 +49,14 @@
       </state>
     </system>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="TimeCalculator" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -56,6 +80,7 @@
     <property name="android.recentlyUsedThemes" value="android:Theme.Material.Dialog.NoActionBar.MinWidth&#10;android:Theme.Material.Dialog" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -140,12 +165,39 @@
       <option name="presentableId" value="Default" />
       <updated>1592153000860</updated>
     </task>
+    <task id="LOCAL-00001" summary="New logic to calculate time works&#10;&#10;TODO: - Format final time&#10;      - Redo Rounded time with 0, 25, 20, 75&#10;      - Remove hardcoded rounded time&#10;      - Change UI for clock style">
+      <created>1593277649335</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593277649335</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="New logic to calculate time works&#10;&#10;TODO: - Format final time&#10;      - Redo Rounded time with 0, 25, 20, 75&#10;      - Remove hardcoded rounded time&#10;      - Change UI for clock style" />
+    <option name="LAST_COMMIT_MESSAGE" value="New logic to calculate time works&#10;&#10;TODO: - Format final time&#10;      - Redo Rounded time with 0, 25, 20, 75&#10;      - Remove hardcoded rounded time&#10;      - Change UI for clock style" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="640" y="252" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1592519891707">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="640" y="252" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1592519891707" />
     <state x="540" y="279" key="AndroidCreateResourceFileDialog" timestamp="1592164425974">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -154,37 +206,55 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="540" y="229" key="AndroidThemeDialog/-1050.-386.1050.1650/0.0.1920.1050@0.0.1920.1050" timestamp="1592181419244" />
-<<<<<<< Updated upstream
-=======
     <state x="565" y="119" key="CommitChangelistDialog2" timestamp="1593832516769">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="565" y="119" key="CommitChangelistDialog2/-1050.-386.1050.1650/0.0.1920.1050@0.0.1920.1050" timestamp="1593277648443" />
     <state x="565" y="119" key="CommitChangelistDialog2/0.0.1920.1050/-1050.-386.1050.1650@0.0.1920.1050" timestamp="1593832516769" />
+=======
+    <state x="565" y="119" key="CommitChangelistDialog2" timestamp="1593832392079">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="565" y="119" key="CommitChangelistDialog2/-1050.-386.1050.1650/0.0.1920.1050@0.0.1920.1050" timestamp="1593277648443" />
+    <state x="565" y="119" key="CommitChangelistDialog2/0.0.1920.1050/-1050.-386.1050.1650@0.0.1920.1050" timestamp="1593832392079" />
     <state x="92" y="92" width="1736" height="866" key="DiffContextDialog" timestamp="1592791707833">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="92" y="92" width="1736" height="866" key="DiffContextDialog/-1050.-386.1050.1650/0.0.1920.1050@0.0.1920.1050" timestamp="1592791707833" />
->>>>>>> Stashed changes
     <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1592154205137">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="279" key="FileChooserDialogImpl/-1050.-386.1050.1650/0.0.1920.1050@0.0.1920.1050" timestamp="1592154205137" />
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1592166006628">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1593272891538">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom/-1050.-386.1050.1650/0.0.1920.1050@0.0.1920.1050" timestamp="1592166006628" />
-    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1592166006628">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/-1050.-386.1050.1650/0.0.1920.1050@0.0.1920.1050" timestamp="1593272891538" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1593272891538">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.center/-1050.-386.1050.1650/0.0.1920.1050@0.0.1920.1050" timestamp="1592166006628" />
-    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1592166006628">
+    <state width="1877" height="285" key="GridCell.Tab.0.center/-1050.-386.1050.1650/0.0.1920.1050@0.0.1920.1050" timestamp="1593272891538" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1593272891537">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.left/-1050.-386.1050.1650/0.0.1920.1050@0.0.1920.1050" timestamp="1592166006628" />
-    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1592166006628">
+    <state width="1877" height="285" key="GridCell.Tab.0.left/-1050.-386.1050.1650/0.0.1920.1050@0.0.1920.1050" timestamp="1593272891537" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1593272891538">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.right/-1050.-386.1050.1650/0.0.1920.1050@0.0.1920.1050" timestamp="1592166006628" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right/-1050.-386.1050.1650/0.0.1920.1050@0.0.1920.1050" timestamp="1593272891538" />
+    <state x="461" y="167" key="SettingsEditor" timestamp="1593270638305">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="461" y="167" key="SettingsEditor/-1050.-386.1050.1650/0.0.1920.1050@0.0.1920.1050" timestamp="1593270638305" />
+    <state x="810" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1593380736924">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-607" y="161" key="com.intellij.ide.util.TipDialog/-1050.-386.1050.1650/0.0.1920.1050@-1050.-386.1050.1650" timestamp="1592790865287" />
+    <state x="810" y="348" key="com.intellij.ide.util.TipDialog/-1050.-386.1050.1650/0.0.1920.1050@0.0.1920.1050" timestamp="1593270651130" />
+    <state x="810" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/-1050.-386.1050.1650@0.0.1920.1050" timestamp="1593380736924" />
+    <state x="895" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1592531614637" />
+    <state x="701" y="167" key="refactoring.ChangeSignatureDialog" timestamp="1593277001835">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="701" y="167" key="refactoring.ChangeSignatureDialog/-1050.-386.1050.1650/0.0.1920.1050@0.0.1920.1050" timestamp="1593277001835" />
   </component>
 </project>
