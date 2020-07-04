@@ -2,5 +2,8 @@
     <string name="app_name">TimeCalculator</string>
     <string name="workTime">Total Time</string>
     <string name="btnCalculate">Calculate</string>
-    <string name="roundedTime">R</string>
+    <string name="roundedTime">Rounded MN</string>
+    <string name="btnStart">Start Time</string>
+    <string name="btnEnd">End Time</string>
+    <string name="txtWhichClock">Start</string>
 </resources>

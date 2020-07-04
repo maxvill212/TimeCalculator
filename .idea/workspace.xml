@@ -9,7 +9,7 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="292bb1e0-c6b3-433b-80d7-35ee24f9ee52" name="Default Changelist" comment="New logic to calculate time works&#10;&#10;TODO: - Format final time&#10;      - Redo Rounded time with 0, 25, 20, 75&#10;      - Remove hardcoded rounded time&#10;      - Change UI for clock style">
+    <list default="true" id="292bb1e0-c6b3-433b-80d7-35ee24f9ee52" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -18,12 +18,18 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/timecalculator/Functions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/timecalculator/Functions.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/timecalculator/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/timecalculator/MainActivity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/timecalculator/WorkTime.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/timecalculator/WorkTime.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,6 +165,14 @@
       <option name="presentableId" value="Default" />
       <updated>1592153000860</updated>
     </task>
+    <task id="LOCAL-00001" summary="New logic to calculate time works&#10;&#10;TODO: - Format final time&#10;      - Redo Rounded time with 0, 25, 20, 75&#10;      - Remove hardcoded rounded time&#10;      - Change UI for clock style">
+      <created>1593277649335</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593277649335</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,10 +206,11 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="540" y="229" key="AndroidThemeDialog/-1050.-386.1050.1650/0.0.1920.1050@0.0.1920.1050" timestamp="1592181419244" />
-    <state x="565" y="119" key="CommitChangelistDialog2" timestamp="1593277624420">
+    <state x="565" y="119" key="CommitChangelistDialog2" timestamp="1593832392079">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="565" y="119" key="CommitChangelistDialog2/-1050.-386.1050.1650/0.0.1920.1050@0.0.1920.1050" timestamp="1593277624420" />
+    <state x="565" y="119" key="CommitChangelistDialog2/-1050.-386.1050.1650/0.0.1920.1050@0.0.1920.1050" timestamp="1593277648443" />
+    <state x="565" y="119" key="CommitChangelistDialog2/0.0.1920.1050/-1050.-386.1050.1650@0.0.1920.1050" timestamp="1593832392079" />
     <state x="92" y="92" width="1736" height="866" key="DiffContextDialog" timestamp="1592791707833">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -224,11 +239,12 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="167" key="SettingsEditor/-1050.-386.1050.1650/0.0.1920.1050@0.0.1920.1050" timestamp="1593270638305" />
-    <state x="810" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1593270651130">
+    <state x="810" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1593380736924">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="-607" y="161" key="com.intellij.ide.util.TipDialog/-1050.-386.1050.1650/0.0.1920.1050@-1050.-386.1050.1650" timestamp="1592790865287" />
     <state x="810" y="348" key="com.intellij.ide.util.TipDialog/-1050.-386.1050.1650/0.0.1920.1050@0.0.1920.1050" timestamp="1593270651130" />
+    <state x="810" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/-1050.-386.1050.1650@0.0.1920.1050" timestamp="1593380736924" />
     <state x="895" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1592531614637" />
     <state x="701" y="167" key="refactoring.ChangeSignatureDialog" timestamp="1593277001835">
       <screen x="0" y="0" width="1920" height="1050" />
